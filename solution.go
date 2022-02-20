@@ -11,11 +11,11 @@ import "math"
 // CalcSquare(10.0, SidesCircle)
 type sideType int
 
-func CalcSquare(sideLen float64, sidesNum sideType) float64 {
-	const SidesTriangle sideType = 3
-	const SidesSquare sideType = 4
-	const SidesCircle sideType = 0
+const SidesTriangle sideType = 3
+const SidesSquare sideType = 4
+const SidesCircle sideType = 0
 
+func CalcSquare(sideLen float64, sidesNum sideType) float64 {
 	result := 0.0
 
 	switch {
